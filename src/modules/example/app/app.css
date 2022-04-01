@@ -1,7 +1,10 @@
 :host {
-    --color1: #ff0000;
-    --color2: #00ff00;
-    --color3: #0000ff;
+    --color1: #FFFFFF;
+    --color2: #308d46;
+    --color3: #1798C1;
+
+
+    --color4: rgba(0, 0, 0, 0);
 }
 main {
     margin: 30px;
@@ -11,11 +14,11 @@ main {
 }
 
 h1 {
-    color: #1798c1;
+    color: var(--color3);
 }
 
 .pure-menu-heading {
-    color: #308d46;
+    color: var(--color2);
 }
 
 .custom-display {
